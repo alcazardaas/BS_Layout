@@ -11,7 +11,11 @@ body {
 .logo {
     float: left;
     display: block;
-    border: 1px solid black;
+}
+
+.logo img {
+    width: 20%;
+    height: auto;
 }
 
 .top-right-nav {
@@ -82,15 +86,56 @@ footer {
 
 /********MEDIA QUERIES*******************/
 
-/*@media (max-width: 1200px) {
+@media (max-width: 1200px) {
+
+    .slider {
+        background-color: #000;
+        color: #fff;
+        margin: 0;
+    }
+
+    .slider::after {
+        content: "Width 1200px or less";
+    }
 
     .contain-box {
         float: none;
         width: 100%;
-
     }
 
     .info-box {
         width: 100%;
+        background-color: rgb(77, 77, 77);
+        color: #e2e2e2;
+        margin: 0;
+        border: 1px solid #fff;
     }
-}*/
+
+    footer {
+        background-color: #000;
+        color: #fff;
+        margin-top: 0px;
+        border: none;
+    }
+
+    .logo {
+        float: none;
+        width: 100%;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .top-right-nav {
+        margin: 0;
+        float: none;
+        width: 100%;
+        background-color: rgb(65, 65, 65);
+        text-align: center;
+        color: #fff;
+        height: 50px;;
+        padding-top: 1%;
+    }
+
+}
