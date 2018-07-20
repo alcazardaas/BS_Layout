@@ -86,7 +86,7 @@ footer {
 
 /********MEDIA QUERIES*******************/
 
-@media (max-width: 1200px) {
+@media (max-width: 770px) {
 
     .slider {
         background-color: #000;
