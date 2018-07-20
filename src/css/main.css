@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+}
+
+.logo {
+    float: left;
+    display: block;
+    border: 1px solid black;
+}
+
+.top-right-nav {
+    float: right;
+}
+
+.slider {
+    display: block;
+    color: red;
+    width: 100%;
+    height: 280px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contain-box {
+    width: 75%;
+    float: left;
+}
+
+.info-box {
+    border: 2px solid black;
+    height: 250px;
+    display: inline-block;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 24%;
+    padding-top: 100px;
+    background-color: blueviolet;
+}
+
+.large-box {
+    width: 25%;
+    height: 520px;
+    float: right;
+    padding-top: 200px;
+    background-color: bisque;
+}
+
+.bot-box {
+    width: 48.1%;
+    background-color: aquamarine;
+}
+
+footer {
+    color: red;
+    width: 100%;
+    height: 280px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: 2px solid green;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.cf::before,
+.cf::after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf::after {
+    clear: both;
+}
+
+/********MEDIA QUERIES*******************/
+
+/*@media (max-width: 1200px) {
+
+    .contain-box {
+        float: none;
+        width: 100%;
+
+    }
+
+    .info-box {
+        width: 100%;
+    }
+}*/
